@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(41, 40, 40), rgb(4, 79, 32));
+  }
+  h1 {
+    color: white;
+    margin-bottom: 5px;
+  }
+  h6 {
+    color: rgb(24, 212, 149);
+    font-size: 15px;
+  }
+  .container {
+    width: 350px;
+    height: auto;
+    background-color: rgb(27, 27, 27);
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #input {
+    width: 240px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+  }
+  .input button {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: bold;
+    background-color: rgb(5, 106, 72);
+    color: white;
+    font-size: 13px;
+  }
+  .list-container {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.897);
+    list-style: none;
+    padding: 20px;
+    display: inline;
+    font-size: 17px;
+  }
+  
+  .list-container i:hover {
+    color: white;
+  }
+  ul li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 17px;
+    padding: 8px 12px 8px 12px;
+    background-color: #1f1c1c;
+    box-shadow: 0.1px 0.1px 5px #666060;
+    border-radius: 12px;
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+  
+  .Delete {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: rgb(6, 116, 80);
+    font-weight: bold;
+  }
+  .Delete:hover {
+    cursor: pointer;
+  
+    color: orange;
+  }
+  ul li span {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+  }
+  ul li span img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* background-color: rgb(4, 65, 44); */
+  }
+  ul li span img:hover {
+    background-color: #302f2f;
+  }
+  
